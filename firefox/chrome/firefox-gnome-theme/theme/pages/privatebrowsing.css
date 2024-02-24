@@ -2,10 +2,10 @@
 
 @-moz-document url("about:privatebrowsing") {
     html.private {
-        --in-content-page-background: var(--gnome-window-background) !important;
+        --in-content-page-background: var(--gnome-private-in-content-page-background) !important;
 
         /* Used by headings in promo boxes Firefox shows (like an ad for Firefox Focus) */
-        --in-content-text-color: #c6d0f5 !important;
+        --in-content-text-color: var(--gnome-private-text-primary-color) !important;
     }
     .wordmark {
         fill: var(--gnome-private-wordmark) !important;
